@@ -49,10 +49,8 @@ set ::env(GPIO_PADS_VERILOG) "\
 set ::env(KLAYOUT_TECH) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/sg13g2.lyt"
 set ::env(KLAYOUT_PROPERTIES) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/sg13g2.lyp"
 set ::env(KLAYOUT_DEF_LAYER_MAP) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/sg13g2.map"
-#set ::env(KLAYOUT_XOR_IGNORE_LAYERS) "81/14"
-#set ::env(KLAYOUT_DRC_OPTIONS) [dict create beol 1 feol 1 floating_metal 0 seal 1 offgrid 1] ; # based on KLAYOUT_DRC_RUNSET options
-#set ::env(KLAYOUT_DRC_RUNSET) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/drc/$::env(PDK)_mr.drc"
-##set ::env(KLAYOUT_DRC_TECH) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/$::env(PDK).lydrc"
+set ::env(KLAYOUT_DRC_RUNSET) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/drc/sg13g2_maximal.lydrc"
+set ::env(KLAYOUT_DRC_OPTIONS) [dict create density 0 ] ;
 
 ## netgen setup
 #set ::env(NETGEN_SETUP_FILE) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/netgen/sky130A_setup.tcl"
