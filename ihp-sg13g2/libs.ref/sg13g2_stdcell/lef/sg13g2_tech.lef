@@ -127,7 +127,7 @@ LAYER Metal2
   WIDTH 0.39        0.21    0.24    0.24
   WIDTH 10.0        0.21    0.24    0.60 ;
   MINIMUMCUT 2 WIDTH 1.4 ;
-  AREA      0.144 ;
+  AREA      0.18 ;
   HEIGHT 1.880 ;
   #CURRENTDEN 0 ;
   THICKNESS 0.450 ;
