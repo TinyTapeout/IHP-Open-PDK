@@ -139,6 +139,7 @@ class DRC::DRCEngine
                                        inverse_error_edge_pairs_90 = nil,
                                        inverse_error_edge_pairs_180 = nil,
                                        options = {})
+        gc_was_disabled = GC.disable
         consider_intersecting_edges   = options.fetch(:consider_intersecting_edges, false)
         consider_touch_points         = options.fetch(:consider_touch_points, false)
         ignore_non_axis_aligned_edges = options.fetch(:ignore_non_axis_aligned_edges, false)
@@ -233,6 +234,8 @@ class DRC::DRCEngine
             errors_ep = errors_ep + touch_point_errors_ep
         end
         return DRC::DRCLayer::new(self, errors_ep)
+    ensure
+        gc_was_disabled || GC.enable
     end
 end
 
