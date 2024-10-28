@@ -179,7 +179,7 @@ foreach dev $devices {
 	property "-circuit1 $dev" parallel {value add}
 	property "-circuit1 $dev" tolerance {area 0.02} {perim 0.02}
 	# Ignore these properties
-	property "-circuit1 $dev" delete mult perim
+	property "-circuit1 $dev" delete l w mult perim
     }
     if {[lsearch $cells2 $dev] >= 0} {
 	property "-circuit2 $dev" parallel enable
@@ -188,7 +188,7 @@ foreach dev $devices {
 	property "-circuit2 $dev" parallel {value add}
 	property "-circuit2 $dev" tolerance {area 0.02} {perim 0.02}
 	# Ignore these properties
-	property "-circuit2 $dev" delete mult perim
+	property "-circuit2 $dev" delete l w mult perim
     }
 }
 
