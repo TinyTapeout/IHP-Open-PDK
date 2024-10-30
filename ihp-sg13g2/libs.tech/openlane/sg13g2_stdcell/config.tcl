@@ -55,7 +55,7 @@ set ::env(SYNTH_TIELO_PORT) "sg13g2_tielo L_LO"
 #set ::env(PL_LIB) $::env(LIB_TYPICAL)
 
 # Fillcell insertion
-set ::env(FILL_CELL) "sg13g2_fill_*"
+set ::env(FILL_CELL) "sg13g2_fill_1 sg13g2_fill_2"
 set ::env(DECAP_CELL) "sg13g2_decap_*"
 #set ::env(RE_BUFFER_CELL) "sky130_fd_sc_hd__buf_4"
 
