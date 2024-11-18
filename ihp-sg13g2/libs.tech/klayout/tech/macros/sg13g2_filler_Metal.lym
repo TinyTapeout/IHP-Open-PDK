@@ -112,69 +112,109 @@
 	NoMetFiller = source.input("160/0")
 
 	# Paramter
-	width_m1 = 2
-	height_m1 = 2
-	distance_m1 = 1.2
-	
-	width_m2 = 2
-	height_m2 = 2
-	distance_m2 = 1.2
-        
-  width_m3 = 2
-	height_m3 = 2
-	distance_m3 = 1.2
-	
-	width_m4 = 2
-	height_m4 = 2
-	distance_m4 = 1.2
-        
-  width_m5 = 2.0
-	height_m5 = 2.0
-	distance_m5 = 1.2
+	width_m1l = 2.2
+	height_m1l = 2.2
+	distance_m1l = 1
+	width_m1s = 1.1
+	height_m1s = 1.1
+	distance_m1s = 0.5
+
+	width_m2l = 3.5
+	height_m2l = 3.5
+	distance_m2l = 1.0
+	width_m2s = 2.55
+	height_m2s = 1.05
+	distance_m2s = 0.45
+
+	width_m3l = 3.5
+	height_m3l = 3.5
+	distance_m3l = 1.0
+	width_m3s = 1.05
+	height_m3s = 2.55
+	distance_m3s = 0.45
+
+	width_m4l = 3.5
+	height_m4l = 3.5
+	distance_m4l = 1.0
+	width_m4s = 2.55
+	height_m4s = 1.05
+	distance_m4s = 0.45
+
+	width_m5l = 3.5
+	height_m5l = 3.5
+	distance_m5l = 1.0
+	width_m5s = 1.05
+	height_m5s = 2.55
+	distance_m5s = 0.45
 
 	# Create filler cell
-	pattern_m1 = fill_pattern("Met1_FILL_CELL").shape(8, 22,  box(0.0, 0.0, width_m1, height_m1))
-	pattern_m2 = fill_pattern("Met1_FILL_CELL").shape(10, 22, box(0.0, 0.0, width_m2, height_m2))
-	pattern_m3 = fill_pattern("Met1_FILL_CELL").shape(30, 22, box(0.0, 0.0, width_m3, height_m3))
-	pattern_m4 = fill_pattern("Met1_FILL_CELL").shape(50, 22, box(0.0, 0.0, width_m4, height_m4))
-	pattern_m5 = fill_pattern("Met1_FILL_CELL").shape(67, 22, box(0.0, 0.0, width_m5, height_m5))
-	 
+	pattern_m1l = fill_pattern("Met1L_FILL_CELL").shape(8, 22,  box(0.0, 0.0, width_m1l, height_m1l))
+	pattern_m2l = fill_pattern("Met2L_FILL_CELL").shape(10, 22, box(0.0, 0.0, width_m2l, height_m2l))
+	pattern_m3l = fill_pattern("Met3L_FILL_CELL").shape(30, 22, box(0.0, 0.0, width_m3l, height_m3l))
+	pattern_m4l = fill_pattern("Met4L_FILL_CELL").shape(50, 22, box(0.0, 0.0, width_m4l, height_m4l))
+	pattern_m5l = fill_pattern("Met5L_FILL_CELL").shape(67, 22, box(0.0, 0.0, width_m5l, height_m5l))
+
+	pattern_m1s = fill_pattern("Met1S_FILL_CELL").shape(8, 22,  box(0.0, 0.0, width_m1s, height_m1s))
+	pattern_m2s = fill_pattern("Met2S_FILL_CELL").shape(10, 22, box(0.0, 0.0, width_m2s, height_m2s))
+	pattern_m3s = fill_pattern("Met3S_FILL_CELL").shape(30, 22, box(0.0, 0.0, width_m3s, height_m3s))
+	pattern_m4s = fill_pattern("Met4S_FILL_CELL").shape(50, 22, box(0.0, 0.0, width_m4s, height_m4s))
+	pattern_m5s = fill_pattern("Met5S_FILL_CELL").shape(67, 22, box(0.0, 0.0, width_m5s, height_m5s))
+
 	# Define noFill exclusion layer
-	M1Fil_c = Metal1.dup
-	M1Fil_c.size(0.42, 0.42, "square_limit")
-	M1Fil_d = TRANS.dup
-	M1Fil_d.size(1.0, 1.0, "square_limit")
-	exclLayM1 = M1Fil_c | M1Fil_d | Metal1_filler | Metal1_nofill | Metal1_slit | TRANS
+	MnFil_d = TRANS.sized(1.2, 1.2, "square_limit")
+	MnFill_base = EdgeSeal.holes - MnFil_d
 
-	M2Fil_c = Metal2.dup
-	M2Fil_c.size(0.42, 0.42, "square_limit")
-	M2Fil_d = TRANS.dup
-	M2Fil_d.size(1.0, 1.0, "square_limit")
-	exclLayM2 = M2Fil_c | M2Fil_d | Metal2_filler | Metal2_nofill | Metal2_slit | TRANS
+	# Metal 1
+	print("Metal 1\n")
 
-	M3Fil_c = Metal3.dup
-	M3Fil_c.size(0.42, 0.42, "square_limit")
-	M3Fil_d = TRANS.dup
-	M3Fil_d.size(1.0, 1.0, "square_limit")
-	exclLayM3 = M3Fil_c | M3Fil_d | Metal3_filler | Metal3_nofill | Metal3_slit | TRANS
+	M1Fil_base = MnFill_base - (Metal1_filler | Metal1_nofill | Metal1_slit)
+	M1Fil_c = Metal1.sized(0.6, 0.6, "square_limit")
+	M1Fil = M1Fil_base - M1Fil_c
 
-	M4Fil_c = Metal4.dup
-	M4Fil_c.size(0.42, 0.42, "square_limit")
-	M4Fil_d = TRANS.dup
-	M4Fil_d.size(1.0, 1.0, "square_limit")
-	exclLayM4 = M4Fil_c | M4Fil_d | Metal4_filler | Metal4_nofill | Metal4_slit | TRANS
+	M1Fil_left = M1Fil.fill_with_left(pattern_m1l, hstep(width_m1l + distance_m1l), vstep(height_m1l + distance_m1l))
+	M1Fil_left.fill(pattern_m1s, hstep(width_m1s + distance_m1s), vstep(height_m1s + distance_m1s))
 
-	M5Fil_c = Metal5.dup
-	M5Fil_c.size(0.42, 0.42, "square_limit")
-	M5Fil_d = TRANS.dup
-	M5Fil_d.size(1.0, 1.0, "square_limit")
-	exclLayM5 = M5Fil_c | M5Fil_d | Metal5_filler | Metal5_nofill | Metal5_slit | TRANS
-	
-	# perform fill
-	(EdgeSeal.holes - exclLayM1).fill(pattern_m1, hstep(width_m1 + distance_m1), vstep(height_m1 + distance_m1))
-	(EdgeSeal.holes - exclLayM2).fill(pattern_m2, hstep(width_m2 + distance_m2), vstep(height_m2 + distance_m2))
-	(EdgeSeal.holes - exclLayM3).fill(pattern_m3, hstep(width_m3 + distance_m3), vstep(height_m3 + distance_m3))
-	(EdgeSeal.holes - exclLayM4).fill(pattern_m4, hstep(width_m4 + distance_m4), vstep(height_m4 + distance_m4))
-	(EdgeSeal.holes - exclLayM5).fill(pattern_m5, hstep(width_m5 + distance_m5), vstep(height_m5 + distance_m5))
+	# Metal 2
+	print("Metal 2\n")
+
+	M2Fil_base = MnFill_base - (Metal2_filler | Metal2_nofill | Metal2_slit)
+	M2Fil_c = Metal2.sized(0.6, 0.6, "square_limit")
+	M2Fil = M2Fil_base - M2Fil_c
+
+	M2Fil_left = M2Fil.fill_with_left(pattern_m2l, hstep(width_m2l + distance_m2l), vstep(height_m2l + distance_m2l))
+	M2Fil_left.fill(pattern_m2s, hstep(width_m2s + distance_m2s), vstep(height_m2s + distance_m2s))
+
+	# Metal 3
+	print("Metal 3\n")
+
+	M3Fil_base = MnFill_base - (Metal3_filler | Metal3_nofill | Metal3_slit)
+	M3Fil_c = Metal3.sized(0.6, 0.6, "square_limit")
+	M3Fil = M3Fil_base - M3Fil_c
+
+	M3Fil_left = M3Fil.fill_with_left(pattern_m3l, hstep(width_m3l + distance_m3l), vstep(height_m3l + distance_m3l))
+
+	M3Fil_left.snap(0.005)
+	M3Fil_left.fill(pattern_m3s, hstep(width_m3s + distance_m3s), vstep(height_m3s + distance_m3s))
+
+	# Metal 4
+	print("Metal 4\n")
+
+	M4Fil_base = MnFill_base - (Metal4_filler | Metal4_nofill | Metal4_slit)
+	M4Fil_c = Metal4.sized(0.6, 0.6, "square_limit")
+	M4Fil = M4Fil_base - M4Fil_c
+
+	M4Fil_left = M4Fil.fill_with_left(pattern_m4l, hstep(width_m4l + distance_m4l), vstep(height_m4l + distance_m4l))
+	M4Fil_left.fill(pattern_m4s, hstep(width_m4s + distance_m4s), vstep(height_m4s + distance_m4s))
+
+	# Metal 5
+	print("Metal 5\n")
+
+	M5Fil_base = MnFill_base - (Metal5_filler | Metal5_nofill | Metal5_slit)
+	M5Fil_c = Metal5.sized(0.6, 0.6, "square_limit")
+	M5Fil = M5Fil_base - M5Fil_c
+
+	M5Fil_left = M5Fil.fill_with_left(pattern_m5l, hstep(width_m5l + distance_m5l), vstep(height_m5l + distance_m5l))
+	M5Fil_left.fill(pattern_m5s, hstep(width_m5s + distance_m5s), vstep(height_m5s + distance_m5s))
+
 	</text>
 </klayout-macro>
