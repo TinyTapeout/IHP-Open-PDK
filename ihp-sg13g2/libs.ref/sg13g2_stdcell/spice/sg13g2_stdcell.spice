@@ -684,6 +684,42 @@ XP2 TE TE_B VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 ad=0 as=0 pd=0 ps=0 m=1
 * End of subcircuit definition.
 
 * Library name: sg13g2_stdcell
+* Cell name: sg13g2_fill_1
+* View name: schematic
+* Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+* pspice dspf
+.subckt sg13g2_fill_1 VDD VSS
+.ends
+* End of subcircuit definition.
+
+* Library name: sg13g2_stdcell
+* Cell name: sg13g2_fill_2
+* View name: schematic
+* Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+* pspice dspf
+.subckt sg13g2_fill_2 VDD VSS
+.ends
+* End of subcircuit definition.
+
+* Library name: sg13g2_stdcell
+* Cell name: sg13g2_fill_4
+* View name: schematic
+* Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+* pspice dspf
+.subckt sg13g2_fill_4 VDD VSS
+.ends
+* End of subcircuit definition.
+
+* Library name: sg13g2_stdcell
+* Cell name: sg13g2_fill_8
+* View name: schematic
+* Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+* pspice dspf
+.subckt sg13g2_fill_8 VDD VSS
+.ends
+* End of subcircuit definition.
+
+* Library name: sg13g2_stdcell
 * Cell name: sg13g2_inv_1
 * View name: schematic
 * Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
