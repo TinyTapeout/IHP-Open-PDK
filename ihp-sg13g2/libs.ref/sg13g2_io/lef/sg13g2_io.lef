@@ -315,24 +315,6 @@ MACRO sg13g2_Corner
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER Metal2 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER Metal3 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER Metal4 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER Metal5 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER TopMetal1 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER TopMetal2 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER Via1 ;
-      RECT -180.000 0.000 0.000 180.000 ;
-    LAYER Via2 ;
-      RECT -180.000 0.000 0.000 180.000 ;
   END
 END sg13g2_Corner
 
@@ -492,24 +474,6 @@ MACRO sg13g2_Filler200
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 1.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 1.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 8.500 1.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 1.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 1.000 180.000 ;
   END
 END sg13g2_Filler200
 
@@ -669,24 +633,6 @@ MACRO sg13g2_Filler400
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 2.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 2.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 8.500 2.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 2.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 2.000 180.000 ;
   END
 END sg13g2_Filler400
 
@@ -846,24 +792,6 @@ MACRO sg13g2_Filler1000
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 5.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 5.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 8.500 5.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 5.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 5.000 180.000 ;
   END
 END sg13g2_Filler1000
 
@@ -1023,24 +951,6 @@ MACRO sg13g2_Filler2000
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 10.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 10.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 8.500 10.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 10.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 10.000 180.000 ;
   END
 END sg13g2_Filler2000
 
@@ -1200,24 +1110,6 @@ MACRO sg13g2_Filler4000
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 20.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 20.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 8.500 20.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 20.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 20.000 180.000 ;
   END
 END sg13g2_Filler4000
 
@@ -1377,24 +1269,6 @@ MACRO sg13g2_Filler10000
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 50.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 50.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 8.500 50.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 50.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 50.000 180.000 ;
   END
 END sg13g2_Filler10000
 
@@ -1582,24 +1456,6 @@ MACRO sg13g2_IOPadIn
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadIn
 
@@ -1787,24 +1643,6 @@ MACRO sg13g2_IOPadOut4mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadOut4mA
 
@@ -1992,24 +1830,6 @@ MACRO sg13g2_IOPadOut16mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadOut16mA
 
@@ -2197,24 +2017,6 @@ MACRO sg13g2_IOPadOut30mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadOut30mA
 
@@ -2412,24 +2214,6 @@ MACRO sg13g2_IOPadTriOut4mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadTriOut4mA
 
@@ -2627,24 +2411,6 @@ MACRO sg13g2_IOPadTriOut16mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadTriOut16mA
 
@@ -2842,24 +2608,6 @@ MACRO sg13g2_IOPadTriOut30mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadTriOut30mA
 
@@ -3067,24 +2815,6 @@ MACRO sg13g2_IOPadInOut4mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadInOut4mA
 
@@ -3292,24 +3022,6 @@ MACRO sg13g2_IOPadInOut16mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadInOut16mA
 
@@ -3517,24 +3229,6 @@ MACRO sg13g2_IOPadInOut30mA
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadInOut30mA
 
@@ -3728,24 +3422,6 @@ MACRO sg13g2_IOPadAnalog
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadAnalog
 
@@ -3919,24 +3595,6 @@ MACRO sg13g2_IOPadIOVss
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadIOVss
 
@@ -4118,24 +3776,6 @@ MACRO sg13g2_IOPadIOVdd
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadIOVdd
 
@@ -4309,24 +3949,6 @@ MACRO sg13g2_IOPadVss
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 132.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadVss
 
@@ -4524,23 +4146,5 @@ MACRO sg13g2_IOPadVdd
     END
   END vss
   OBS
-    LAYER Metal1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Metal3 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal4 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER Metal5 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal1 ;
-      RECT 0.000 0.000 80.000 178.000 ;
-    LAYER TopMetal2 ;
-      RECT 0.000 0.000 80.000 156.500 ;
-    LAYER Via1 ;
-      RECT 0.000 0.000 80.000 180.000 ;
-    LAYER Via2 ;
-      RECT 0.000 0.000 80.000 180.000 ;
   END
 END sg13g2_IOPadVdd
