@@ -38,10 +38,11 @@ except NameError:
     sys.exit(1)
 
 NO_ACTIV = 'no_activ' in globals()
-NO_METAL = 'no_metal' in globals()
+NO_METAL1 = 'no_metal1' in globals()
+NO_METAL25 = 'no_metal25' in globals()
 NO_TOPMETAL = 'no_topmetal' in globals()
 
-scripts = [(NO_ACTIV, 'ActGatP'), (NO_METAL, 'Metal'), (NO_TOPMETAL, 'TopMetal')]
+scripts = [(NO_ACTIV, 'ActGatP'), (NO_METAL1, 'Metal1'), (NO_METAL25, 'Metal25'), (NO_TOPMETAL, 'TopMetal')]
 
 for disabled, area in scripts:
     if disabled:
