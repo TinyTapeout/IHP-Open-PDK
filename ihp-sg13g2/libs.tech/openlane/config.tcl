@@ -51,7 +51,7 @@ set ::env(KLAYOUT_TECH) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/sg1
 set ::env(KLAYOUT_PROPERTIES) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/sg13g2.lyp"
 set ::env(KLAYOUT_DEF_LAYER_MAP) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/sg13g2.map"
 set ::env(KLAYOUT_DRC_RUNSET) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/drc/sg13g2_maximal.lydrc"
-set ::env(KLAYOUT_DRC_OPTIONS) [dict create density 0 ]
+set ::env(KLAYOUT_DRC_OPTIONS) [dict create densityRules 0 ]
 set ::env(KLAYOUT_LVS_SCRIPT) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/klayout/tech/lvs/sg13g2_full.lylvs"
 set ::env(KLAYOUT_LVS_OPTIONS) [dict create run_mode deep ]
 
