@@ -881,6 +881,13 @@ style gdsii
 	calma	5 22
 
 #----------------------------------------------------------------
+# POLYRES (PolyRes)
+#----------------------------------------------------------------
+
+ layer POLYRES allpolyres
+	calma   128 0
+
+#----------------------------------------------------------------
 # THKOX (ThickGateOx)
 #----------------------------------------------------------------
 
@@ -3568,7 +3575,7 @@ style  sg13g2 variants ()
  calma MET6TXT 126 25
  calma MET7TXT 134 25
 
- # NOTE: POLYRES includes POLY (or doesn't; layouts are inconsistent)
+ # NOTE: POLYRES doesn't include POLY
  calma POLYRES 128 0
 
  calma MET1RES 8 29
