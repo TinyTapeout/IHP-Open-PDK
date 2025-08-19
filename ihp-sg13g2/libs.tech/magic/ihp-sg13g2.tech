@@ -3806,10 +3806,10 @@ drc
  variants *
 
  # pSD spacing
- edge4way pfet ~(*pdiff,pfet)/a 330 ~(*nsd)/a (*pdiff)/a 330 "pFET spacing to tap < %d (pSD.i + pSD.d1)"
- edge4way hvpfet ~(*hvpdiff,hvpfet)/a 430 ~(*hvnsd)/a (*hvpdiff)/a 430 "HV pFET spacing to tap < %d (pSD.i1 + pSD.d1)"
- edge4way nfet ~(*ndiff,nfet)/a 330 ~(*psd)/a (*ndiff)/a 330 "nFET spacing to tap < %d (pSD.j + pSD.c1)"
- edge4way hvnfet ~(*hvndiff,hvnfet)/a 430 ~(*hvpsd)/a (*hvndiff)/a 430 "HV nFET spacing to tap < %d (pSD.j + pSD.c1)"
+# edge4way pfet ~(*pdiff,pfet)/a 330 ~(*nsd)/a (*pdiff)/a 330 "pFET spacing to tap < %d (pSD.i + pSD.d1)"
+# edge4way hvpfet ~(*hvpdiff,hvpfet)/a 430 ~(*hvnsd)/a (*hvpdiff)/a 430 "HV pFET spacing to tap < %d (pSD.i1 + pSD.d1)"
+# edge4way nfet ~(*ndiff,nfet)/a 330 ~(*psd)/a (*ndiff)/a 330 "nFET spacing to tap < %d (pSD.j + pSD.c1)"
+# edge4way hvnfet ~(*hvndiff,hvnfet)/a 430 ~(*hvpsd)/a (*hvndiff)/a 430 "HV nFET spacing to tap < %d (pSD.j + pSD.c1)"
 
  # Length of source/drain areas where butted taps exist
  edge4way pfet *pdiff 300 ~(*nsd)/a 0 0 "pSD must overhang pFET by %d (pSD.i)"
