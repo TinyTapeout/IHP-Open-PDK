@@ -212,40 +212,40 @@
 	end
 
 	# Paramter
-	width_m1_s = 1.0
-	height_m1_s = 1.0
-	distance_m1_s = distances['distance_m1']
-	width_m1_m = width_m1_s + distance_m1_s + width_m1_s
-	height_m1_m = height_m1_s + distance_m1_s + height_m1_s
-	distance_m1_m = distance_m1_s
+	width_m1_s = 1.1
+	height_m1_s = 1.1
+	distance_m1_s = 0.5
+	width_m1_m = 2.2
+	height_m1_m = 2.2
+	distance_m1_m = 1
 
-	width_m2_s = 1.0
-	height_m2_s = 1.0
-	distance_m2_s = distances['distance_m2']
-	width_m2_m = width_m2_s + distance_m2_s + width_m2_s
-	height_m2_m = height_m2_s + distance_m2_s + height_m2_s
-	distance_m2_m = distance_m2_s
+	width_m2_s = 2.55
+	height_m2_s = 1.05
+	distance_m2_s = 0.45
+	width_m2_m = 3.5
+	height_m2_m = 3.5
+	distance_m2_m = 1.0
 
-	width_m3_s = 1.0
-	height_m3_s = 1.0
-	distance_m3_s = distances['distance_m3']
-	width_m3_m = width_m3_s + distance_m3_s + width_m3_s
-	height_m3_m = height_m3_s + distance_m3_s + height_m3_s
-	distance_m3_m = distance_m3_s
+	width_m3_s = 1.05
+	height_m3_s = 2.55
+	distance_m3_s = 0.45
+	width_m3_m = 3.5
+	height_m3_m = 3.5
+	distance_m3_m = 1.0
 
-	width_m4_s = 1.0
-	height_m4_s = 1.0
-	distance_m4_s = distances['distance_m4']
-	width_m4_m = width_m4_s + distance_m4_s + width_m4_s
-	height_m4_m = height_m4_s + distance_m4_s + height_m4_s
-	distance_m4_m = distance_m4_s
+	width_m4_s = 2.55
+	height_m4_s = 1.05
+	distance_m4_s = 0.45
+	width_m4_m = 3.5
+	height_m4_m = 3.5
+	distance_m4_m = 1.0
 
-	width_m5_s = 1.0
-	height_m5_s = 1.0
-	distance_m5_s = distances['distance_m5']
-	width_m5_m = width_m5_s + distance_m5_s + width_m5_s
-	height_m5_m = height_m5_s + distance_m5_s + height_m5_s
-	distance_m5_m = distance_m5_s
+	width_m5_s = 1.05
+	height_m5_s = 2.55
+	distance_m5_s = 0.45
+	width_m5_m = 3.5
+	height_m5_m = 3.5
+	distance_m5_m = 1.0
 
 	# Create filler cell
 	pattern_m1_s = fill_pattern("Met1_S_FILL_CELL").shape(8, 22,  box(0.0, 0.0, width_m1_s, height_m1_s))

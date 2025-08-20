@@ -112,13 +112,15 @@
 	NoMetFiller = source.input("160/0")
 
 	# Paramter
-	width = 5.0
-	height = 10.0
-	distance = 3.05  # exact value of 3.0, which is a min. value for TM1Fil.b causes random DRC violations
+	tm1_width = 5.0
+	tm1_height = 10.0
+	tm2_width = 10.0
+	tm2_height = 5.0
+	distance = 3.5  # exact value of 3.0, which is a min. value for TM1Fil.b causes random DRC violations
 
 	# Create filler cell
-	pattern_tm1 = fill_pattern("TM1_FILL_CELL").shape(126, 22, box(0.0, 0.0, width, height))
-	pattern_tm2 = fill_pattern("TM2_FILL_CELL").shape(134, 22, box(0.0, 0.0, width, height))
+	pattern_tm1 = fill_pattern("TM1_FILL_CELL").shape(126, 22, box(0.0, 0.0, tm1_width, tm1_height))
+	pattern_tm2 = fill_pattern("TM2_FILL_CELL").shape(134, 22, box(0.0, 0.0, tm2_width, tm2_height))
 	 
 	# Define noFill exclusion layer
 	TM1Fil_c = TopMetal1.dup
@@ -134,7 +136,7 @@
 	exclLayTM2 = TM2Fil_c | TM2Fil_d | TopMetal2_filler | TopMetal2_nofill | TopMetal2_slit | TRANS
 
 	# perform fill
-	(EdgeSeal.holes - exclLayTM1).fill(pattern_tm1, hstep(width + distance), vstep(height + distance))
-	(EdgeSeal.holes - exclLayTM2).fill(pattern_tm2, hstep(width + distance), vstep(height + distance))
+	(EdgeSeal.holes - exclLayTM1).fill(pattern_tm1, hstep(tm1_width + distance), vstep(tm1_height + distance))
+	(EdgeSeal.holes - exclLayTM2).fill(pattern_tm2, hstep(tm2_width + distance), vstep(tm2_height + distance))
 </text>
 </klayout-macro>
