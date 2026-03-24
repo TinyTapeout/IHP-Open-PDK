@@ -219,29 +219,29 @@
 	height_m1_m = 2.2
 	distance_m1_m = 1
 
-	width_m2_s = 2.55
-	height_m2_s = 1.05
+	width_m2_s = 1.05
+	height_m2_s = 2.55
 	distance_m2_s = 0.45
 	width_m2_m = 3.5
 	height_m2_m = 3.5
 	distance_m2_m = 1.0
 
-	width_m3_s = 1.05
-	height_m3_s = 2.55
+	width_m3_s = 2.55
+	height_m3_s = 1.05
 	distance_m3_s = 0.45
 	width_m3_m = 3.5
 	height_m3_m = 3.5
 	distance_m3_m = 1.0
 
-	width_m4_s = 2.55
-	height_m4_s = 1.05
+	width_m4_s = 1.05
+	height_m4_s = 2.55
 	distance_m4_s = 0.45
 	width_m4_m = 3.5
 	height_m4_m = 3.5
 	distance_m4_m = 1.0
 
-	width_m5_s = 1.05
-	height_m5_s = 2.55
+	width_m5_s = 2.55
+	height_m5_s = 1.05
 	distance_m5_s = 0.45
 	width_m5_m = 3.5
 	height_m5_m = 3.5
