@@ -130,7 +130,7 @@ foreach dev $devices {
 	property "-circuit1 $dev" parallel {w add}
 	property "-circuit1 $dev" tolerance {w 0.01} {l 0.01}
 	# Ignore these properties
-	property "-circuit1 $dev" delete ng as ad pd ps trise z1 z2 wmin rfmode pre_layout
+	property "-circuit1 $dev" delete ng as ad pd ps trise z1 z2 wmin rfmode pre_layout mm_ok
     }
     if {[lsearch $cells2 $dev] >= 0} {
 	permute "-circuit2 $dev" 1 3
@@ -139,7 +139,7 @@ foreach dev $devices {
 	property "-circuit2 $dev" parallel {w add}
 	property "-circuit2 $dev" tolerance {w 0.01} {l 0.01}
 	# Ignore these properties
-	property "-circuit2 $dev" delete ng as ad pd ps trise z1 z2 wmin rfmode pre_layout
+	property "-circuit2 $dev" delete ng as ad pd ps trise z1 z2 wmin rfmode pre_layout mm_ok
     }
 }
 
